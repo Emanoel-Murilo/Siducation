@@ -77,7 +77,6 @@ nav {
 
 #sidhome {
     width: 850px;
-    box-shadow: ;
     filter: drop-shadow(10px 10px 7px rgba(0, 0, 0, 0.6));
 }
 
@@ -117,7 +116,7 @@ h4 {
     text-align: center;
     margin: 0;
     font-size: 20px;
-    font-weight: black;
+    font-weight: 600;
 
 }
 
@@ -158,4 +157,102 @@ h4 {
     background-color: #031f36;                                                                                                                              
     border-radius: 50px;
     border: 0;
+}
+
+.bloco2 {
+    margin-top: 80px;
+    display: flex;
+    gap: 200px;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 20px;
+    width: 650px;
+    height: 850px;
+}
+
+.cadastro > h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+input {
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    width: 530px;
+    height: 80px;
+    background-color: #C4D4E6;
+}
+
+input[type] {
+    padding: 0 0 0 20px;
+}
+
+input:focus {
+    outline-color: #031f36;
+}
+
+.cadastro > button {
+    cursor: pointer;
+    width: 550px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #031f36;                                                                                                                              
+    border-radius: 50px;
+    border: 0;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+}
+
+.blocoprof {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blocoprof > h3 {
+    margin: 0;
+    text-align: start;
+}
+
+.professor {
+    display: flex;
+    align-items: center;
+}
+
+.professor > .profinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.professor > .circle {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.profinfo > .profname {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.profinfo > .profdesc {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.professor > img {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
